@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## 비즈니스 시스템 설계
 
 You can use the [editor on GitHub](https://github.com/yardcrane/yardcrane.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
