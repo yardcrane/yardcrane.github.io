@@ -1,8 +1,16 @@
-## 비즈니스 시스템 설계
+## 서비스
 
-You can use the [editor on GitHub](https://github.com/yardcrane/yardcrane.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+데브옵스(DevOps)는 개발(Development)과 운영(Operation)의 조합어 입니다. 개발 방식과 운영 방식의 차이점 속에서 개발팀과 운영팀의 협업을 이끌어 내기 위한 프렉티스가 데브옵스입니다. 데브옵스를 위해 애플리케이션 아키텍처가 기존의 모놀리틱 아키텍처와 달라지게 됩니다. 데브옵스를 위한 아키텍처는 작은 변경 사항이 수시로 배포될 수 있어야 하고, 변화에 대한 품질이 확실히 보장이 되어야 합니다.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+이를 위한 아키텍처를 위한 원칙이 있습니다. 각 팀간 관심사는 명확히 분리가 되어야 합니다. 관련 기능이 밀접하게 응집이 되어야 하고, 모모듈간 의존성은 낮게 잡아야 합니다.
+
+마이크로 서비스는 3-티어 패턴의 로직 티어를 작은 서비스들로 쪼개어 프로그램 언어에 구애받지 않는 프로토콜로 서로 통신합니다. 주로 HTTP 기반의 JSON REST 프로토콜을 사용합니다.
+
+서비스들이 잘게 분리되었으니 배포는 독자적으로 이루어 지게 되어 지속적 배포 (Continuous Delivery) 가 가능해 집니다.
+
+비즈니스 영역을 작은 서비스로 쪼개며 데이타 영역 또한 분리가 가능합니다. 전통적인 방식의 데이타 설계 방식과 달라 찬성과 반대 의견이 갈리나 우리 프로젝트에서는 데이타 영역의 분리를 선택했고 이로 인해 데이타 모델링이 간소해 지게 되었습니다.
+
+## 인프라 - 클라우드 서비스
 
 ### Markdown
 
