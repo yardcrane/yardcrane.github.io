@@ -11,6 +11,35 @@
 비즈니스 영역을 작은 서비스로 쪼개며 데이타 영역 또한 분리가 가능합니다. 전통적인 방식의 데이타 설계 방식과 달라 찬성과 반대 의견이 갈리나 데이타 영역이 나뉘어 지면 데이타 모델링이 간소해 집니다.
 
 ## 인프라 - 클라우드 서비스
+### 2-1 IGW ( Internet Gateways )
+IGW는 수평확장 가능하고, 이중화 가능한 고가용성의 VPC 컴포넌트로 인터넷과 사용중인 VPC 인스턴스와의 통신을 허용해 줍니다.
+
+네트웤 주소 변환(NAT)과 VPC 내의 목적지 주소로 보내주는 역할을 합니다.
+
+### 2-2 WAF ( Web Application Firewall ) 
+웹애플리케이션 방화벽
+
+### 2-3 Route53
+가용성과 확장성이 우수한 DNS(도메인 이름 시스템) 웹 서비스
+
+### 2-4 Amazon CloudFront
+짧은 지연 시간과 빠른 전송 속도로 웹 콘텐츠를 사용자에게 안전하게 전송하는 글로벌 CDN(콘텐츠 전송 네트워크)입니다. 
+
+### 2-5 ALB ( Application Load Balancer )
+Contents 기반 라우팅 기능을 제공합니다. 가중치를 기반한 로드밸런싱이 가능합니다.
+
+### 2-6 Web Proxy 
+STON Edge Server의 주요 기능은 다음과 같습니다.
+
+가상 호스트 관리
+URL 전처리 ( URL Rewrite )
+캐싱
+트래픽 모니터링
+### 2-7 Amazon S3
+### 2-8 EKS
+### 2-9 MSK
+### 2-10 Elasticache
+### 2-11 ElasticSearch
 
 ### Markdown
 
