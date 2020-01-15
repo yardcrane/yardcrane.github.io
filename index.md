@@ -41,10 +41,6 @@ URL 전처리 ( URL Rewrite )
 ### 2-10 Elasticache
 ### 2-11 ElasticSearch
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
 ```markdown
 Syntax highlighted code block
 
@@ -63,12 +59,25 @@ Syntax highlighted code block
 [Link](url) and ![Image](src)
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### 3 데이타 관리
+## 3-1 No-SQL
+DynamoDB
 
-### Jekyll Themes
+## 3-2 RDB
+Aurora
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/yardcrane/yardcrane.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+## 3-3 캐싱
+REDIS
 
-### Support or Contact
+## 3-4 메타 데이타
+배치 메타 
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### 4 배포관리
+## 4-1 버전관리
+## 4-2 SDK 
+## 4-3 비스니스 서비스 ( MSA )
+## 4-4 배치 서비스 & ETL 서비스
+
+### 5. 품질관리
+
+### 5. 성능관리
